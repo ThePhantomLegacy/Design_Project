@@ -14,6 +14,7 @@
 		E9E0C1491E56E4AF00CC43DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E0C1471E56E4AF00CC43DD /* LaunchScreen.storyboard */; };
 		E9E0C1541E56E4AF00CC43DD /* testVeriTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0C1531E56E4AF00CC43DD /* testVeriTTests.swift */; };
 		E9E0C15F1E56E4AF00CC43DD /* testVeriTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0C15E1E56E4AF00CC43DD /* testVeriTUITests.swift */; };
+		E9E0C16F1E5728F900CC43DD /* ViewControllerPickUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0C16E1E5728F900CC43DD /* ViewControllerPickUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E9E0C15A1E56E4AF00CC43DD /* testVeriTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testVeriTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E0C15E1E56E4AF00CC43DD /* testVeriTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVeriTUITests.swift; sourceTree = "<group>"; };
 		E9E0C1601E56E4AF00CC43DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E0C16E1E5728F900CC43DD /* ViewControllerPickUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPickUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E9E0C13D1E56E4AF00CC43DD /* testVeriT */ = {
 			isa = PBXGroup;
 			children = (
+				E9E0C16E1E5728F900CC43DD /* ViewControllerPickUp.swift */,
 				E9E0C13E1E56E4AF00CC43DD /* AppDelegate.swift */,
 				E9E0C1401E56E4AF00CC43DD /* ViewController.swift */,
 				E9E0C1421E56E4AF00CC43DD /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E9E0C13A1E56E4AF00CC43DD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9EB4J2XCV;
 						ProvisioningStyle = Automatic;
 					};
 					E9E0C14E1E56E4AF00CC43DD = {
@@ -261,6 +265,7 @@
 			files = (
 				E9E0C1411E56E4AF00CC43DD /* ViewController.swift in Sources */,
 				E9E0C13F1E56E4AF00CC43DD /* AppDelegate.swift in Sources */,
+				E9E0C16F1E5728F900CC43DD /* ViewControllerPickUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9EB4J2XCV;
 				INFOPLIST_FILE = testVeriT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sum.testVeriT;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9EB4J2XCV;
 				INFOPLIST_FILE = testVeriT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sum.testVeriT;

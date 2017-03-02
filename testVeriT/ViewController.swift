@@ -19,7 +19,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 
+    @IBOutlet weak var textUserName: UITextField!
+    @IBOutlet weak var textPassword: UITextField!
+    @IBOutlet weak var wrongUserPass: UILabel!
+
+    @IBAction func loginButton(_ sender: Any) {
+        if (textUserName.text == "admin" && textPassword.text == "password")
+         {
+            wrongUserPass.isHidden = true
+            textUserName.text = ""
+            textPassword.text = ""
+            performSegue(withIdentifier: "loginSeg", sender: self)
+        } else {
+            wrongUserPass.isHidden = false
+        }
+    }
 
 }
 
